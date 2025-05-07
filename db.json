@@ -1,1 +1,7 @@
-{}
+{
+  "users": [
+    { "userId": 1, "userName": "hyunil" },
+    { "userId": 2, "userName": "taerim" },
+    { "userId": 3, "userName": "ray" }
+  ]
+}
