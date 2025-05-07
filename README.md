@@ -1,29 +1,3 @@
-# Culcom 회원 정보 획득
-
-## 기본 API 정보
-
-Method : Get
-URL : /users/{userId}
-
-return : 
-{
-  "userId" : integer,
-  "userName" : string,
-  "address" : dict
-}
-
-## Sample
-request => /users/1 <br>
-
-{
-  "userId" : 1,
-  "userName" : "hyunil",
-  "address" : {
-     "country": "korea",
-     "code" : 100
-  }
-}
-
 # Culcom 회원 등록
 
 ## API 정보
@@ -33,7 +7,10 @@ URL : /users/
 Body : {
   "userId" : integer,
   "userName" : string,
-  "address" : dict
+  "address" : {
+    "country": string,
+    "code" : integer
+  }
 }
 
 ## Sample
