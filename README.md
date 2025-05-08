@@ -2,16 +2,16 @@
 
 ## API 정보
 
-Method : Post
+Method : Post<br>
 URL : /users/
 Body : {
-  "userId" : integer,
-  "userName" : string,
-  "address" : {
-    "country": string,
-    "code" : integer
-  }
-}
+  "userId" : integer, <br>
+  "userName" : string, <br>
+  "address" : { <br>
+      "country":  string, <br>
+      "code" : integer <br>
+  }<br>
+}<br>
 
 ## Sample
 
